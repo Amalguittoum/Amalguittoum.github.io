@@ -1,0 +1,1217 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "de", "en", "undefined" ],
+    "baseIris" : [ "https://saref.etsi.org/core", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD", "http://www.w3.org/2001/XMLSchema", "http://elite.polito.it/ontologies/eupont.owl", "http://www.data-knowledge.org/dk" ],
+    "title" : {
+      "undefined" : "IoT dependencies ontology"
+    },
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "version" : "0.0.4",
+    "description" : {
+      "undefined" : "IoT-D reprensents IoT systems context data that allows inference of dependencies between IoT systems."
+    },
+    "other" : {
+      "versionIRI" : [ {
+        "identifier" : "versionIRI",
+        "language" : "undefined",
+        "value" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD/0.0.4",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "0.0.4",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "IoT dependencies ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "5",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "10",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "33",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "18",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "61",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "12",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "7",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "1",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "4",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "30",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "82",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "14",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "26",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#Property",
+    "equivalent" : [ "9" ],
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Property"
+    },
+    "comment" : {
+      "undefined" : "A quality of a feature of interest that can be measured; an aspect of a feature of interest that is intrinsic to and cannot exist without the feature"
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#Actuator",
+    "equivalent" : [ "14" ],
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Actuator"
+    },
+    "subClasses" : [ "13" ],
+    "attributes" : [ "equivalent" ],
+    "id" : "10",
+    "superClasses" : [ "11", "12" ]
+  }, {
+    "iri" : "http://www.data-knowledge.org/dk/DataFlow",
+    "baseIri" : "http://www.data-knowledge.org/dk",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DataFlow",
+      "en" : "Data Flow"
+    },
+    "subClasses" : [ "16" ],
+    "comment" : {
+      "en" : "Indicates the actual connection and data exchange between particular applications"
+    },
+    "attributes" : [ "external" ],
+    "id" : "15"
+  }, {
+    "iri" : "https://saref.etsi.org/core/Property",
+    "baseIri" : "https://saref.etsi.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Property"
+    },
+    "attributes" : [ "equivalent", "external" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://elite.polito.it/ontologies/eupont.owl#Action",
+    "baseIri" : "http://elite.polito.it/ontologies/eupont.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Action"
+    },
+    "subClasses" : [ "2" ],
+    "attributes" : [ "external" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#triggerActionPlateform",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "triggerActionPlateform"
+    },
+    "comment" : {
+      "undefined" : "a kind of IoT application that is composed of rules created by end user."
+    },
+    "id" : "22",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#Broker",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Broker"
+    },
+    "comment" : {
+      "undefined" : "broker that connect equipments."
+    },
+    "id" : "24",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#Smokesensor",
+    "equivalent" : [ "26" ],
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Smokesensor"
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "25",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#IoTDevice",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IoTDevice"
+    },
+    "subClasses" : [ "10", "4" ],
+    "comment" : {
+      "undefined" : "A device that is connected to the internet to share data it can be ether a sensor/actuator/processor or compositition."
+    },
+    "id" : "11",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://elite.polito.it/ontologies/eupont.owl#Rule",
+    "baseIri" : "http://elite.polito.it/ontologies/eupont.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Rule"
+    },
+    "attributes" : [ "equivalent", "external" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#ConnectivityDevice",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ConnectivityDevice"
+    },
+    "comment" : {
+      "undefined" : "A device that connectes home devices to the internet like: gateway, wifiRepeater, hub."
+    },
+    "id" : "41",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "https://saref.etsi.org/core/Service",
+    "baseIri" : "https://saref.etsi.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Service"
+    },
+    "subClasses" : [ "53" ],
+    "attributes" : [ "equivalent", "external" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#Temperaturesensor",
+    "equivalent" : [ "61" ],
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Temperaturesensor"
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "33",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#Action",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Action"
+    },
+    "comment" : {
+      "undefined" : "An action to perform by calling a service of an IoT device."
+    },
+    "id" : "2",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#ConnectivityService",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ConnectivityService"
+    },
+    "comment" : {
+      "undefined" : "A service offred by a connectivityDevice."
+    },
+    "id" : "53",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#Trigger",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Trigger"
+    },
+    "subClasses" : [ "51" ],
+    "comment" : {
+      "undefined" : "An event to react to. It is launched when the state of an IoT device changes."
+    },
+    "id" : "20",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "64",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "67",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "68",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "69",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "58",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://elite.polito.it/ontologies/eupont.owl#Trigger",
+    "baseIri" : "http://elite.polito.it/ontologies/eupont.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Trigger"
+    },
+    "subClasses" : [ "20" ],
+    "attributes" : [ "external" ],
+    "id" : "56"
+  }, {
+    "iri" : "https://saref.etsi.org/core/FeatureOfInterest",
+    "baseIri" : "https://saref.etsi.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FeatureOfInterest"
+    },
+    "attributes" : [ "equivalent", "external" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#DataFlow",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DataFlow",
+      "undefined" : "Data Flow"
+    },
+    "comment" : {
+      "undefined" : "Indicates the actual connection and data exchange between actions in one application."
+    },
+    "id" : "16",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "https://saref.etsi.org/core/Sensor",
+    "baseIri" : "https://saref.etsi.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sensor"
+    },
+    "attributes" : [ "equivalent", "external" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#Application",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Application"
+    },
+    "subClasses" : [ "24", "22" ],
+    "comment" : {
+      "undefined" : "An IoT application that compose IoT devices services to create added value/complex services, it can be a trigger-action plateform."
+    },
+    "id" : "23"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#Service",
+    "equivalent" : [ "8" ],
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Service"
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "18",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "66",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://saref.etsi.org/core/TemperatureSensor",
+    "baseIri" : "https://saref.etsi.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TemperatureSensor"
+    },
+    "attributes" : [ "equivalent", "external" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#Device",
+    "equivalent" : [ "7" ],
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Device",
+      "undefined" : "Device"
+    },
+    "subClasses" : [ "11", "10", "37", "4", "41" ],
+    "comment" : {
+      "undefined" : "A tangible object designed to accomplish a particular task. In order to accomplish this task, the device performs one or more functions. For example, a washing machine is designed to wash (task) and to accomplish this task it performs a start and stop function."
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "12"
+  }, {
+    "iri" : "https://saref.etsi.org/core/Device",
+    "baseIri" : "https://saref.etsi.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Device"
+    },
+    "attributes" : [ "equivalent", "external" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#Switch",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Switch"
+    },
+    "id" : "13",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "https://saref.etsi.org/core/State",
+    "baseIri" : "https://saref.etsi.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "State"
+    },
+    "attributes" : [ "equivalent", "external" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#Rule",
+    "equivalent" : [ "46" ],
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Rule"
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#Sensor",
+    "equivalent" : [ "78" ],
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sensor"
+    },
+    "subClasses" : [ "25", "33" ],
+    "attributes" : [ "equivalent" ],
+    "id" : "4",
+    "superClasses" : [ "11", "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#State",
+    "equivalent" : [ "77" ],
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "State"
+    },
+    "comment" : {
+      "undefined" : "The state in which a device can be found, e.g, ON/OFF/STANDBY, or ONLINE/OFFLINE. We propose here a list of states that are relevant for the purpose of SAREF, but this list can be extended."
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#FeatureOfInterest",
+    "equivalent" : [ "75" ],
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FeatureOfInterest"
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "82"
+  }, {
+    "iri" : "https://saref.etsi.org/core/Actuator",
+    "baseIri" : "https://saref.etsi.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Actuator"
+    },
+    "attributes" : [ "equivalent", "external" ],
+    "id" : "14"
+  }, {
+    "iri" : "https://saref.etsi.org/core/SmokeSensor",
+    "baseIri" : "https://saref.etsi.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SmokeSensor"
+    },
+    "attributes" : [ "equivalent", "external" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#Processor",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Processor"
+    },
+    "comment" : {
+      "undefined" : "A device that has the capability to perform computation operations on data."
+    },
+    "id" : "37",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#ComplexTrigger",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ComplexTrigger"
+    },
+    "id" : "51",
+    "superClasses" : [ "20" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "43",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "57",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "63",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "76",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "84",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "86",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "88",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#hasAction",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasAction"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#measuresProperty",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "measuresProperty"
+    },
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#consumes",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "consumes"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "A relationship between a device and a service."
+    },
+    "attributes" : [ "object" ],
+    "id" : "6"
+  }, {
+    "iri" : "https://saref.etsi.org/core/controlsProperty",
+    "baseIri" : "https://saref.etsi.org/core",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "controlsProperty"
+    },
+    "domain" : "18",
+    "attributes" : [ "object", "external" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#hasTrigger",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasTrigger"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#offers",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "offers"
+    },
+    "domain" : "12",
+    "attributes" : [ "object" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#hasState",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "hasState"
+    },
+    "domain" : "12",
+    "attributes" : [ "object" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#hasConnectivityDependency",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "hasConnectivityDependency"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Denotes connectivity dependency relationship between two devices."
+    },
+    "attributes" : [ "object" ],
+    "id" : "31"
+  }, {
+    "range" : "4",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#hasStateDependencyTo",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "hasStateDependencyTo"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Denotes state dependency relationship between two devices."
+    },
+    "attributes" : [ "object" ],
+    "id" : "34"
+  }, {
+    "range" : "12",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "12",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#controlsProperty",
+    "equivalent" : [ "17" ],
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "controlsProperty"
+    },
+    "domain" : "10",
+    "attributes" : [ "object" ],
+    "id" : "38"
+  }, {
+    "range" : "4",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "12",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#flowsFrom",
+    "equivalent" : [ "43" ],
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "flowsFrom"
+    },
+    "domain" : "16",
+    "attributes" : [ "object" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#hasIPAddress",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "hasIPAddress"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype" ],
+    "id" : "44"
+  }, {
+    "range" : "12",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "47"
+  }, {
+    "range" : "23",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.data-knowledge.org/dk/flowsFrom",
+    "baseIri" : "http://www.data-knowledge.org/dk",
+    "range" : "2",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.data-knowledge.org/dk/",
+        "type" : "iri"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "de",
+        "value" : "Stammdatenspeicher sendet Datensatz 324",
+        "type" : "label"
+      }, {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "Master data repository sends out dataset 324",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "fließt von",
+      "IRI-based" : "flowsFrom",
+      "en" : "flows from"
+    },
+    "domain" : "15",
+    "comment" : {
+      "de" : "Schnittstelle A sendet Daten",
+      "en" : "Interface A sends data"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "43"
+  }, {
+    "range" : "12",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "49"
+  }, {
+    "range" : "20",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "50"
+  }, {
+    "range" : "8",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "range" : "23",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "range" : "56",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#hasServiceName",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "hasServiceName"
+    },
+    "domain" : "8",
+    "attributes" : [ "datatype" ],
+    "id" : "57"
+  }, {
+    "range" : "21",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "range" : "11",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "60"
+  }, {
+    "range" : "11",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#hasServiceDependencyTo",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "hasServiceDependencyTo"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Denotes direct service dependency relationship between two devices."
+    },
+    "attributes" : [ "object" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#hasDeviceName",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "hasDeviceName"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#flowsTo",
+    "equivalent" : [ "71" ],
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "flowsTo"
+    },
+    "domain" : "16",
+    "attributes" : [ "object" ],
+    "id" : "70"
+  }, {
+    "range" : "10",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "72"
+  }, {
+    "range" : "15",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#allowsAction",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "allowsAction"
+    },
+    "domain" : "28",
+    "comment" : {
+      "undefined" : "A relationship between a service and an action, a service call allow action execution."
+    },
+    "attributes" : [ "object" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#relatedTo",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "relatedTo"
+    },
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "A relationship between a trigger and state to experss that a trigger occurs at a defined state of the device."
+    },
+    "attributes" : [ "object" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#hasMacAddress",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "64",
+    "label" : {
+      "IRI-based" : "hasMacAddress"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://www.data-knowledge.org/dk/flowsTo",
+    "baseIri" : "http://www.data-knowledge.org/dk",
+    "range" : "2",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.data-knowledge.org/dk/",
+        "type" : "iri"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "Dataset 324 is sent to ERP system",
+        "type" : "label"
+      }, {
+        "identifier" : "example",
+        "language" : "de",
+        "value" : "Datensatz 324 wird an ERP-System gesendet",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "fließt an",
+      "IRI-based" : "flowsTo",
+      "en" : "flows to"
+    },
+    "domain" : "15",
+    "comment" : {
+      "de" : "Daten werden zu Schnittstelle B gesendet",
+      "en" : "Data is sent to Interface B"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#hasRule",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "hasRule"
+    },
+    "domain" : "23",
+    "attributes" : [ "object" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#hasProperty",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasProperty"
+    },
+    "domain" : "82",
+    "attributes" : [ "object" ],
+    "id" : "81"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#hasManufacturerName",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "67",
+    "label" : {
+      "IRI-based" : "hasManufacturerName"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#hasApplicationAction",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "hasApplicationAction"
+    },
+    "domain" : "23",
+    "attributes" : [ "object" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#hasImplicitServiceDependencyTo",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "hasImplicitServiceDependencyTo"
+    },
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "Denotes implicit service dependency between two IoT devices."
+    },
+    "attributes" : [ "object" ],
+    "id" : "85"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "18",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#hasChildTrigger",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasChildTrigger"
+    },
+    "domain" : "51",
+    "attributes" : [ "object" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#hasEnvironmentDependencyTo",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "hasEnvironmentDependencyTo"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Denotes environment dependency relationship between two devices."
+    },
+    "attributes" : [ "object" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#hasDeviceTypeName",
+    "baseIri" : "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "hasDeviceTypeName"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype" ],
+    "id" : "89"
+  } ]
+}
