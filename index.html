@@ -435,7 +435,8 @@ This ontology has the following classes and properties.</span>
 <span class="markdown">
 Conceptually, the IoT-D ontology includes three modules: 1) Device-Device Interaction module: describes the capabilities of IoT devices in terms of service provisioning and usage to model the context of direct dependencies. It is based on the enrichment of the SAREF ontology by describing the direct exchange of services between devices through the relation IoTD:consumes and specializing the saref:Service and saref:Device to account for connectivity devices and services, allowing inference of service and connectivity dependencies; 2) Device-Environment interaction module: represents, using the SAREF ontology, the interaction of devices within the physical environment through sensing and ac- tuation, enabling the inference of environment-based dependencies; 3) Device- Application interaction module: describes device interactions in IoT applications. Based on the EuPont ontology, an IoT application is represented using a set of IoTD:Rule and IoTD:Action that are executed by saref:Service. IoTD:Rule is in the form if (IoTD:Trigger ) then IoTD:Action. Triggers are related to a change in devices state saref:State. This trigger-action-based model allows representing state dependencies between devices i.e. when an IoT application acts on one device based on the state of another. Also, it allows the representation of implicit service dependencies in the form of data flows between IoTD:Action, using the class dk:DataFlow of the DK Ontology.</span>
 <figure>
-	<img src="modules.PNG">
+	<img src="modules.PNG"  width="400" 
+     height="500">
 	<figcaption class="list">The Data Knowledge Model</figcaption>
 </figure>
 </div>
